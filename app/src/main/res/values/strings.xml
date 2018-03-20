@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">List.Me</string>
+    <string name="enter_task">Enter new task</string>
+    <string name="add_task">+</string>
+</resources>

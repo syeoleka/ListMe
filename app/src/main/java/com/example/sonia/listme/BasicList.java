@@ -19,6 +19,7 @@ public class BasicList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.activity_basic_list);
         listArray = new ArrayList <String> (5);
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
